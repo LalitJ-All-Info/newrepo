@@ -411,8 +411,820 @@ To github.com:LalitJ-All-Info/newrepo.git
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
-git diff text
-git diff again
-again
-agan
-agian
+
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   code.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git log
+commit ede0f0c0b42cce32b920c2385088f4c790f57545 (HEAD -> master, origin/master)
+Author: Lalit Jadaun <lalitthakurs9734@gmail.com>
+Date:   Fri Jun 5 20:03:52 2020 +0530
+
+    new repo text again
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git add .
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   code.txt
+
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git commit -m "new repo text again add data"
+[master c5ea18b] new repo text again add data
+ 1 file changed, 62 insertions(+)
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git log
+commit c5ea18bb33eabb502ade236071f115a36722b2ec (HEAD -> master)
+Author: Lalit Jadaun <lalitthakurs9734@gmail.com>
+Date:   Fri Jun 5 20:07:25 2020 +0530
+
+    new repo text again add data
+
+commit ede0f0c0b42cce32b920c2385088f4c790f57545 (origin/master)
+Author: Lalit Jadaun <lalitthakurs9734@gmail.com>
+Date:   Fri Jun 5 20:03:52 2020 +0530
+
+    new repo text again
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 628 bytes | 209.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:LalitJ-All-Info/newrepo.git
+   ede0f0c..c5ea18b  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git diff
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git diff
+diff --git a/code.txt b/code.txt
+index 0fb5776..9c590b1 100644
+--- a/code.txt
++++ b/code.txt
+@@ -411,3 +411,4 @@ To github.com:LalitJ-All-Info/newrepo.git
+ Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+ Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
++git diff text
+\ No newline at end of file
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git diff
+diff --git a/code.txt b/code.txt
+index 0fb5776..e890124 100644
+--- a/code.txt
++++ b/code.txt
+@@ -411,3 +411,8 @@ To github.com:LalitJ-All-Info/newrepo.git
+ Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+ Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
++git diff text
++git diff again
++again
++agan
++agian
+\ No newline at end of file
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   code.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git diff
+diff --git a/code.txt b/code.txt
+index 0fb5776..e890124 100644
+--- a/code.txt
++++ b/code.txt
+@@ -411,3 +411,8 @@ To github.com:LalitJ-All-Info/newrepo.git
+ Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+ Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
++git diff text
++git diff again
++again
++agan
++agian
+\ No newline at end of file
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git add .
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   code.txt
+
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git coomit -m "add modified data to the rnewepo"
+git: 'coomit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git coomit -m "add modified data to the rnewepo"
+git: 'coomit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git commit -m "add modified data to the rnewepo"
+[master d122075] add modified data to the rnewepo
+ 1 file changed, 5 insertions(+)
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 320 bytes | 106.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:LalitJ-All-Info/newrepo.git
+   c5ea18b..d122075  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git branch
+* master
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git checkout -b <lalit>
+bash: syntax error near unexpected token `newline'
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git checkout -b lalit
+Switched to a new branch 'lalit'
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (lalit)
+$ git branch master
+fatal: A branch named 'master' already exists.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (lalit)
+$ git checkout lalit
+Already on 'lalit'
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (lalit)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git checkout lalit
+Switched to branch 'lalit'
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (lalit)
+$ git status
+On branch lalit
+nothing to commit, working tree clean
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (lalit)
+$ git log
+commit d1220751ebdf9e5a9e2d0e20c33f9036566df65d (HEAD -> lalit, origin/master, master)
+Author: Lalit Jadaun <lalitthakurs9734@gmail.com>
+Date:   Fri Jun 5 20:13:34 2020 +0530
+
+    add modified data to the rnewepo
+
+commit c5ea18bb33eabb502ade236071f115a36722b2ec
+Author: Lalit Jadaun <lalitthakurs9734@gmail.com>
+Date:   Fri Jun 5 20:07:25 2020 +0530
+
+    new repo text again add data
+
+commit ede0f0c0b42cce32b920c2385088f4c790f57545
+Author: Lalit Jadaun <lalitthakurs9734@gmail.com>
+Date:   Fri Jun 5 20:03:52 2020 +0530
+
+    new repo text again
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (lalit)
+$ git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (lalit)
+$ git push -u origin lalit
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'lalit' on GitHub by visiting:
+remote:      https://github.com/LalitJ-All-Info/newrepo/pull/new/lalit
+remote:
+To github.com:LalitJ-All-Info/newrepo.git
+ * [new branch]      lalit -> lalit
+Branch 'lalit' set up to track remote branch 'lalit' from 'origin'.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (lalit)
+$ git status
+On branch lalit
+Your branch is up to date with 'origin/lalit'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        code1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (lalit)
+$ git add .
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (lalit)
+$ git commit -m "lalit branch new repo"
+[lalit 5bf9d96] lalit branch new repo
+ 1 file changed, 3 insertions(+)
+ create mode 100644 code1.txt
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (lalit)
+$ git push -u origin lalit
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 313 bytes | 156.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:LalitJ-All-Info/newrepo.git
+   d122075..5bf9d96  lalit -> lalit
+Branch 'lalit' set up to track remote branch 'lalit' from 'origin'.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (lalit)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git merge lalit
+Updating d122075..5bf9d96
+Fast-forward
+ code1.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+ create mode 100644 code1.txt
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git checkout lalit
+Switched to branch 'lalit'
+Your branch is up to date with 'origin/lalit'.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (lalit)
+$ git merge master
+Already up to date.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (lalit)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git merge lalit
+Already up to date.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git push -u origin master
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:LalitJ-All-Info/newrepo.git
+   d122075..5bf9d96  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git diff
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git diff
+diff --git a/code1.txt b/code1.txt
+index 1f105b9..206d536 100644
+--- a/code1.txt
++++ b/code1.txt
+@@ -1,3 +1,8 @@
+ git checkout jfjv
+ nejw
+ cewi
++ nv nvj
++ng
++vjfvuhd
++ dvjgbd
++ jvdhj
+\ No newline at end of file
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git pull
+Already up to date.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git diff
+diff --git a/code1.txt b/code1.txt
+index 1f105b9..206d536 100644
+--- a/code1.txt
++++ b/code1.txt
+@@ -1,3 +1,8 @@
+ git checkout jfjv
+ nejw
+ cewi
++ nv nvj
++ng
++vjfvuhd
++ dvjgbd
++ jvdhj
+\ No newline at end of file
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git add .
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git diff
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git dif --staged
+git: 'dif' is not a git command. See 'git --help'.
+
+The most similar commands are
+        diff
+        config
+        difftool
+        init
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git diff --staged
+diff --git a/code1.txt b/code1.txt
+index 1f105b9..206d536 100644
+--- a/code1.txt
++++ b/code1.txt
+@@ -1,3 +1,8 @@
+ git checkout jfjv
+ nejw
+ cewi
++ nv nvj
++ng
++vjfvuhd
++ dvjgbd
++ jvdhj
+\ No newline at end of file
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   code1.txt
+
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git reset code1.txt
+Unstaged changes after reset:
+M       code1.txt
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   code1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git add .
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git reset
+Unstaged changes after reset:
+M       code1.txt
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   code1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git add .
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git reset
+Unstaged changes after reset:
+M       code1.txt
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   code1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git add .
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   code1.txt
+
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git commit -u origin master
+error: pathspec 'origin' did not match any file(s) known to git
+error: pathspec 'master' did not match any file(s) known to git
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git commit -m "commit again again"
+[master 1da488e] commit again again
+ 1 file changed, 5 insertions(+)
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 331 bytes | 331.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:LalitJ-All-Info/newrepo.git
+   5bf9d96..1da488e  master -> master
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git log
+commit 1da488e920b9531e7c676f06040be5bb590ddd81 (HEAD -> master, origin/master)
+Author: Lalit Jadaun <lalitthakurs9734@gmail.com>
+Date:   Fri Jun 5 20:56:13 2020 +0530
+
+    commit again again
+
+commit 5bf9d96cc55b2d2f5d95427c629e842b1e63431f (origin/lalit, lalit)
+Author: Lalit Jadaun <lalitthakurs9734@gmail.com>
+Date:   Fri Jun 5 20:24:27 2020 +0530
+commit 1da488e920b9531e7c676f06040be5bb590ddd81 (HEAD -> master, origin/master)
+Author: Lalit Jadaun <lalitthakurs9734@gmail.com>
+Date:   Fri Jun 5 20:56:13 2020 +0530
+
+    commit again again
+
+
+    lalit branch new repo
+
+commit d1220751ebdf9e5a9e2d0e20c33f9036566df65d
+Author: Lalit Jadaun <lalitthakurs9734@gmail.com>
+Date:   Fri Jun 5 20:13:34 2020 +0530
+
+    add modified data to the rnewepo
+
+commit c5ea18bb33eabb502ade236071f115a36722b2ec
+Author: Lalit Jadaun <lalitthakurs9734@gmail.com>
+Date:   Fri Jun 5 20:07:25 2020 +0530
+
+    new repo text again add data
+
+commit ede0f0c0b42cce32b920c2385088f4c790f57545
+Author: Lalit Jadaun <lalitthakurs9734@gmail.com>
+
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git diff
+diff --git a/code1.txt b/code1.txt
+index 206d536..e5b57a0 100644
+--- a/code1.txt
++++ b/code1.txt
+@@ -5,4 +5,10 @@ cewi
+ ng
+ vjfvuhd
+  dvjgbd
+- jvdhj
+\ No newline at end of file
++ jvdhjnv
++njdv
++mf
++f
++f
++
++ff
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   code1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git diff --staged
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   code1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git diff
+diff --git a/code1.txt b/code1.txt
+index 206d536..e5b57a0 100644
+--- a/code1.txt
++++ b/code1.txt
+@@ -5,4 +5,10 @@ cewi
+ ng
+ vjfvuhd
+  dvjgbd
+- jvdhj
+\ No newline at end of file
++ jvdhjnv
++njdv
++mf
++f
++f
++
++ff
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git add .
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git reset
+Unstaged changes after reset:
+M       code1.txt
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   code1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git checkout
+M       code1.txt
+Your branch is up to date with 'origin/master'.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git checkout code1.txt
+Updated 1 path from the index
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git pull
+Already up to date.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git clone git@github.com:raja1227/Vehicle-Accident-System.git .
+fatal: destination path '.' already exists and is not an empty directory.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git pull
+Already up to date.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Vehicle-Accident-System
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Vehicle-Accident-System
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+        vehicle_accident_system_code.ino
+
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git diff
+diff --git a/Vehicle-Accident-System b/Vehicle-Accident-System
+deleted file mode 160000
+index 467d828..0000000
+--- a/Vehicle-Accident-System
++++ /dev/null
+@@ -1 +0,0 @@
+-Subproject commit 467d828b73dcc10d5b66b47d8eb1839ce6226062
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git log
+commit 1da488e920b9531e7c676f06040be5bb590ddd81 (HEAD -> master, origin/master)
+Author: Lalit Jadaun <lalitthakurs9734@gmail.com>
+Date:   Fri Jun 5 20:56:13 2020 +0530
+
+    commit again again
+
+commit 5bf9d96cc55b2d2f5d95427c629e842b1e63431f (origin/lalit, lalit)
+Author: Lalit Jadaun <lalitthakurs9734@gmail.com>
+Date:   Fri Jun 5 20:24:27 2020 +0530
+commit 1da488e920b9531e7c676f06040be5bb590ddd81 (HEAD -> master, origin/master)
+Author: Lalit Jadaun <lalitthakurs9734@gmail.com>
+Date:   Fri Jun 5 20:56:13 2020 +0530
+
+    commit again again
+
+
+    lalit branch new repo
+
+commit d1220751ebdf9e5a9e2d0e20c33f9036566df65d
+Author: Lalit Jadaun <lalitthakurs9734@gmail.com>
+Date:   Fri Jun 5 20:13:34 2020 +0530
+
+    add modified data to the rnewepo
+
+commit c5ea18bb33eabb502ade236071f115a36722b2ec
+Author: Lalit Jadaun <lalitthakurs9734@gmail.com>
+Date:   Fri Jun 5 20:07:25 2020 +0530
+
+    new repo text again add data
+
+commit ede0f0c0b42cce32b920c2385088f4c790f57545
+Author: Lalit Jadaun <lalitthakurs9734@gmail.com>
+
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git add -A
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   README.md
+        new file:   vehicle_accident_system_code.ino
+
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git commit -m "vechile system"
+[master 711ca3b] vechile system
+ 2 files changed, 301 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 vehicle_accident_system_code.ino
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 2.10 KiB | 716.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:LalitJ-All-Info/newrepo.git
+   1da488e..711ca3b  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    README.md
+        deleted:    vehicle_accident_system_code.ino
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Vehicle-Accident-System/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git add .
+warning: adding embedded git repository: Vehicle-Accident-System
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> Vehicle-Accident-System
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached Vehicle-Accident-System
+hint:
+hint: See "git help submodule" for more information.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git add -A
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git commit -m "vechicle sysytem update"
+[master 0b48126] vechicle sysytem update
+ 3 files changed, 1 insertion(+), 301 deletions(-)
+ delete mode 100644 README.md
+ create mode 160000 Vehicle-Accident-System
+ delete mode 100644 vehicle_accident_system_code.ino
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 323 bytes | 323.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:LalitJ-All-Info/newrepo.git
+   711ca3b..0b48126  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Lalit@DESKTOP-5GB113V MINGW64 ~/Desktop/new repo (master)
+$ git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
